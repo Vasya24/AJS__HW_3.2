@@ -2,6 +2,7 @@
   "name": "hw_3.2",
   "version": "1.0.0",
   "description": "\"Homework 3.2 for AJS-7 in Netology\"",
+  "test command": "jest --coverage",
   "main": "index.js",
   "dependencies": {
     "babel-loader": "^8.1.0",
