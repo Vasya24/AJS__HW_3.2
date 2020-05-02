@@ -4,4 +4,8 @@ let chars = [
     {name: 'лучник', health: 80},
 ];
 
+chars.sort(function(a, b) {
+   return b.health - a.health
+})
+
 export default chars
