@@ -1,11 +1,7 @@
-import chars from '../index'
+import { chars, sorting, healthCheck } from '../index'
 
-test('The healthiest guy', () => {
-    expect(100).toEqual(chars[0].health);
-});
-test('Just a scratch', () => {
-    expect(80).toEqual(chars[1].health);
-});
-test('Call a doctor!', () => {
-    expect(10).toEqual(chars[2].health);
+test('Check', () => {
+    expect(chars[0].health).toEqual(100);
+    expect(chars[1].health).toEqual(80);
+    expect(chars[2].health).toEqual(10);
 })
