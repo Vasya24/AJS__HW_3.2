@@ -8,7 +8,7 @@ let sorting = chars.sort(function(a, b) {
    return b.health - a.health
 })
 
-let healthCheck = (function() {
+function healthCheck() {
 for (let i=0; i<chars.length; i++) {
     if (chars[i].health == 100) {
         console.log('The healthiest guy')
@@ -20,5 +20,5 @@ for (let i=0; i<chars.length; i++) {
         console.log('Call a doctor!')
     }
 }
-}())
+}
 export { chars, sorting, healthCheck }
